@@ -1,0 +1,4 @@
+regex for email validation
+pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
+matches = re.findall(pattern, text)
